@@ -43,7 +43,7 @@ func (s *server) handleEmojis() http.HandlerFunc {
 func (s *server) handleHealthCheck() http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
 		w.WriteHeader(http.StatusOK)
-		w.Write([]byte("healthcheck okay!"))
+		w.Write([]byte("healthcheck okay-main.go!"))
 	}
 }
 
