@@ -21,7 +21,7 @@ source.onmessage = (event) => {
 };
 
 app.get('/_healthcheck', (req, res) => {
-  res.send('healthcheck okay!')
+  res.send('healthcheck okay abcdefg!')
 });
 
 app.get('/', (req, res) => {
